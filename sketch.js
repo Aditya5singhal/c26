@@ -36,6 +36,8 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    eagle = new Bird(200,200);
+
 }
 
 function draw(){
@@ -61,4 +63,5 @@ function draw(){
 
     bird.display();
     platform.display();
+    eagle.display();
 }
